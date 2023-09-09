@@ -23,14 +23,25 @@ body {  font-family: sans-serif;
         font-family: "rubik", sans-serif;                  }
 
 
+.header {display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: var(--light-primary-tint);
+height: 9.6rem;
+}                                                             
+
+.logo {height: 2.2rem;}        
+
+
 .hero-section { background-color: var(--light-primary-tint);
-                padding: 9.6rem 0;}
+                padding: 4.8rem 0 9.6rem 0;}
 
 .hero { display: grid;
         grid-template-columns: 1fr 1fr;
         max-width:130rem;
         align-items: center;
         gap:9.6rem;
+        padding: 0 3.8rem;
 }      
 
 .heading-primary {font-size: 6.2rem;
