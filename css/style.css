@@ -28,7 +28,30 @@ justify-content: space-between;
 align-items: center;
 background-color: var(--light-primary-tint);
 height: 9.6rem;
-}                                                             
+padding: 0 4.8rem;
+}
+
+.main-nav-list {display: flex;
+                list-style: none;
+                gap:3.2rem;
+                }
+
+.main-nav-link:link , .main-nav-link:visited {text-decoration: none;
+                color: #333;
+                font-weight: 500;
+                font-size: 1.8rem;
+                transition:all 0.3s;} 
+                
+.main-nav-link:hover , .main-nav-link:active {
+                        color:var(--dark-primary-tint);}
+                        
+                        
+
+.cta:link , .cta:visited {padding: 1.6rem 3.2rem;
+                        background-color: var(--primary-color);
+                        color: #fff;
+                        border-radius: 9px;}
+.cta:hover, .cta:active  {background-color: var(--dark-primary-tint);}                        
 
 .logo {height: 2.2rem;}        
 
@@ -40,6 +63,7 @@ height: 9.6rem;
         grid-template-columns: 1fr 1fr;
         max-width:130rem;
         align-items: center;
+        margin: auto;
         gap:9.6rem;
         padding: 0 3.8rem;
 }      
