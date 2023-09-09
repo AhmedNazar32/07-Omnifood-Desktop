@@ -20,7 +20,7 @@ body {  font-family: sans-serif;
         line-height: 1;
         font-weight: 400;
         color: #555;
-        font-family: "inter", sans-serif;                  }
+        font-family: "rubik", sans-serif;                  }
 
 
 .hero-section { background-color: var(--light-primary-tint);
@@ -50,7 +50,8 @@ body {  font-family: sans-serif;
                    padding: 1.6rem 3.2rem;
                    border-radius: 9px;
                    text-decoration: none; 
-                   transition: all 0.3s; }                   
+                   transition: all 0.3s; 
+                   font-weight: 600;}                   
                    
 .btn--full:link , .btn--full:visited      {                 background-color: var(--primary-color); 
                   
@@ -72,3 +73,7 @@ box-shadow: inset 0 0 0 3px #fff;
 .hero-img { width:100%;}
 
 .margin-sm-right {margin-right: 1.6rem !important;}
+
+.delived-meals {display: flex;}
+
+.delived-images {display: flex;}
