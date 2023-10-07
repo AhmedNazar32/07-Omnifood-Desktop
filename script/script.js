@@ -135,3 +135,13 @@ allLinks.forEach(function(link){
 
 
 }) 
+
+const sectionHeroEl = document.querySelector('.hero-section');
+const observer = new IntersectionObserver(function(entires){
+  const ent = entires[0];
+
+
+  if (ent.isIntersecting === false){document.body.classList.add('sticky');}
+  if (ent.isIntersecting === true) {document.body.classList.remove('sticky')}
+},{root: null, threshold: 0, rootMargin:'-80px' });
+observer.observe(sectionHeroEl);
